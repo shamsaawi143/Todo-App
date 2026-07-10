@@ -1,13 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ravi+Prakash&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  /* background: rgb(182,197,227) ;
+  background: radial-gradient(
+    circle,
+    rgba(182,197,227,1)0%,
+    rgba(28,43,38,1)100%
+  ); */
+  background: #f9f9f9;
+  background: -webkit-radial-gradient(center, #f9f9f9, #212529);
+  background: -moz-radial-gradient(center, #f9f9f9, #212529);
+  background: radial-gradient(ellipse at center, #f9f9f9, #212529);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3 {
+  font-family: 'Ravi Prakash', cursive;
+}
+
+.form-control{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.list-zoom{
+  transition: 0.5s ease-in-out;
+}
+.list-zoom:hover{
+  transform: scale(1.05);
+}
+.btn-action{
+  cursor: pointer;
 }
