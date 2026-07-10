@@ -75,17 +75,12 @@ http://localhost:3000
 
 ## Screenshot
 
-Add your project screenshot here.
+My project screenshot here.
 
-```md
-![Todo App Screenshot](./screenshot.png)
-```
 
-Or create a folder named `screenshots` and use:
+## Screenshot
 
-```md
-![Todo App](./screenshots/todo-app.png)
-```
+![Todo App Screenshot](./assets/screenshot/Screenshot.png)
 
 ## Future Improvements
 
